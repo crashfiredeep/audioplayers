@@ -13,7 +13,7 @@ To play an audio, just run:
 ```dart
     import 'package:audioplayers/audio_cache.dart';
 
-    static AudioCache player = AudioCache();
+    final AudioCache player = AudioCache();
 
     player.play('explosion.mp3');
 ```
